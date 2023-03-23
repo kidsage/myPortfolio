@@ -96,7 +96,7 @@ html{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.png") no-repeat center;
+    background: url("images/banner.png") round center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -167,7 +167,7 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 270px;
+    width: 180px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
@@ -207,8 +207,11 @@ section .title::after{
 .about .about-content .right .text span{
     color: crimson;
 }
-.about .about-content .right p{
+.about .about-content .right p,
+.contact .contact-content .left p,
+.skills .skills-content .left p{
     text-align: justify;
+    font-family: Gothic+A1 sans-serif;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -282,9 +285,6 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
-    text-align: justify;
-}
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
@@ -352,9 +352,6 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-}
-.contact .contact-content .left p{
-    text-align: justify;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
