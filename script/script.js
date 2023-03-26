@@ -19,15 +19,8 @@ $(document).ready(function() {
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Backend developer.", "Python developer.", "Dreamer."],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-2", {
-        strings: ["Backend developer.", "Python developer.", "Dreamer."],
-        typeSpeed: 100,
+        strings: ["백엔드 개발자 ", "파이썬 개발자", "꿈 꾸는 자"],
+        typeSpeed: 200,
         backSpeed: 60,
         loop: true
     });

@@ -40,6 +40,7 @@ html{
 .navbar .logo a span{
     color: crimson;
     transition: all 0.3s ease;
+    font-family: Gothic+A1 sans-serif;
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -106,7 +107,7 @@ html{
     margin: auto 0 auto 40px;
 }
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 30px;
 }
 .home .home-content .text-2{
     font-size: 75px;
@@ -117,7 +118,7 @@ html{
     font-size: 30px;
     margin: 5px 0;
 }
-.home .home-content .text-3 span{
+.home .home-content .text-1 span{
     color: crimson;
     font-weight: 500;
 }
@@ -204,11 +205,14 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about .about-content .right .text span{
-    color: crimson;
+.about .about-content .right .icons .row{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.about .about-content .right p{
+    font-size: 18px;
 }
 .about .about-content .right p,
-.contact .contact-content .left p,
 .skills .skills-content .left p{
     text-align: justify;
     font-family: Gothic+A1 sans-serif;
@@ -342,7 +346,7 @@ section .title::after{
 }
 
 /* contactn section styling */
-.contact .title::after{
+/* .contact .title::after{
     content: "Get in touch";
 }
 .contact .contact-content .column{
@@ -352,9 +356,6 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-}
-.contact .contact-content .left .icons{
-    margin: 10px 0;
 }
 .contact .contact-content .row{
     display: flex;
@@ -427,13 +428,14 @@ section .title::after{
 .contact .right form .button button:hover{
     color: crimson;
     background: none;
-}
+} */
 
 /* footer section styling */
 footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
+    text-align: center;
 }
 footer span a{
     color: crimson;
